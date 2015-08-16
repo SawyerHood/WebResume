@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+img.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.experienceList {
+}
+
+.sectionHeader {
+  display: inline-block;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.experienceSection {
+  padding-bottom: 20px;
+  border-bottom: 3px solid darkgrey;
+}
+
+.sectionHeader p.company {
+  font-size: 14px;
+  color: grey;
+}
+
+.experienceSection ul {
+  display: inline-block;
+  max-width: 700px;
+  vertical-align: top;
+}
+
+.navHeader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 6px 4px -4px grey;
+}
+
+.experienceMaster {
+  padding-top: 100px;
+}
+
+.fillerDiv {
+  clear: both;
+}
+
+.sectionHeader p.jobTitle {
+  font-size: 16px;
+
+}

@@ -9,8 +9,9 @@ class ResumeNav extends React.Component {
 	render() {
 		return (
 			<header className={cx(this.props.className, 'navHeader')}>
-				<h1>Sawyer Hood</h1>
-				<nav>
+				<img src="imgs/sawyer.png" className="navImg" />
+				<h1 className="personName">{this.props.resumeName}</h1>
+				<nav className="resumeNav">
 					<Link to="experience">Experience</Link>
 				</nav>
 			</header>
@@ -46,10 +47,9 @@ class Resume extends React.Component {
 
 	render() {
 		var classes = cx({navUp: !this.state.showHeader});
-		console.log(classes);
 		return (
 			<div>
-				<ResumeNav className={classes}/>
+				<ResumeNav className={classes} resumeName={this.props.resumeName}/>
 				<RouteHandler/>
 			</div>
 		);    

@@ -15,10 +15,11 @@ var wrapComponent = function(Component, props) {
   });
 };
 
-var ExperienceWrapper = wrapComponent(Experience, {experience: ResumeData.experience});
 
+var ExperienceWrapper = wrapComponent(Experience, {experience: ResumeData.experience});
+var ResumeWrapper = wrapComponent(Resume, {resumeName: ResumeData.name});
 var routes = (
-	<Route name="resume" path="/" handler={Resume}>
+	<Route name="resume" path="/" handler={ResumeWrapper}>
 		<Route name="experience" path="experience" handler={ExperienceWrapper}/>
 		<DefaultRoute handler={ExperienceWrapper}/>
 	</Route>

@@ -40,10 +40,14 @@ img.logo {
   width: 100%;
   background-color: white;
   box-shadow: 0 6px 4px -4px grey;
+	padding-left: 10px;
 }
 
 .experienceMaster {
   padding-top: 100px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .navUp {
@@ -58,3 +62,24 @@ img.logo {
   font-size: 16px;
 
 }
+
+.personName {
+	display: inline-block;
+}
+
+.resumeNav a {
+	text-decoration: none;
+	
+}
+
+.resumeNav {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.navImg {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+

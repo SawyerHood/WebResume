@@ -4,8 +4,8 @@ var data = {
 		{
 			employer: 'Facebook',
 			title: 'Software Engineer Intern',
-			startDate: new Date(2015, 4),
-			endDate: new Date(2015, 7),
+			startDate: new Date(2015, 5, 0, 0, 0, 0, 0),
+			endDate: new Date(2015, 8, 0, 0, 0, 0, 0),
 			logo: 'imgs/facebook.png',
 			descList: [
 				'On Facebook’s i18n team implementing locale fallback.',
@@ -24,8 +24,8 @@ var data = {
 		{
 			employer: 'UCF',
 			title: 'Teaching Assistant',
-			startDate: new Date(0, 2015),
-			endDate: new Date(4, 2015),
+			startDate: new Date(2015, 1, 0, 0, 0, 0, 0),
+			endDate: new Date(2015, 5, 0, 0, 0, 0, 0),
 			logo: 'imgs/ucf.png',
 			descList: [
 				'Teaching assistant for Intro to C programming under professor Arup Guha at the University of Central Florida.',
@@ -37,8 +37,8 @@ var data = {
 		{
 			employer: 'Center for Independent Living',
 			title: 'Jr. Programmer',
-			startDate: new Date(0, 2014),
-			endDate: new Date(9, 2014),
+			startDate: new Date(2014, 1, 0, 0, 0, 0, 0),
+			endDate: new Date(2014, 10, 0, 0, 0, 0, 0),
 			logo: 'imgs/cil.jpg',
 			descList: [
 				'Responsible for maintaining a database system that keeps track of thousands of adults with disabilities throughout the South-East United States. Written using the Django web framework (Python). Started as an intern, was promoted to the position of Jr. Programmer.',
@@ -51,8 +51,8 @@ var data = {
 		{
 			employer: 'SI@UCF',
 			title: 'Teaching Assistant',
-			startDate: new Date(5, 2013),
-			endDate: new Date(7, 2014),
+			startDate: new Date(2013, 5, 0, 0, 0, 0, 0),
+			endDate: new Date(2014, 8, 0, 0, 0, 0, 0),
 			logo: 'imgs/ucf.png',
 			descList: [
 				'Worked under professor Arup Guha to teach high school students introductory programing concepts in Python.',

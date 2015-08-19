@@ -1,4 +1,5 @@
 import React from 'react';
+import TagsSection from './TagsSection.jsx'
 
 class EmploymentSection extends React.Component {
 	render() {
@@ -15,6 +16,7 @@ class EmploymentSection extends React.Component {
 					<img src={employment.logo} alt={employment.employer + ' Logo'} className="logo"/>	
 				</div>
 				<ul className="experienceList">{descList}</ul>
+				<TagsSection tagList={employment.tags}/>
 			</section>
 		);
 	}

@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 img.logo {
@@ -12,13 +12,13 @@ img.logo {
 
 .sectionHeader {
   display: inline-block;
-  width: 200px;
-  padding-right: 20px;
+  width: 175px;
 }
 
 .experienceSection {
   padding-bottom: 20px;
   border-bottom: 3px solid darkgrey;
+	max-width: 1000px;
 }
 
 .sectionHeader p.company {
@@ -30,6 +30,7 @@ img.logo {
   display: inline-block;
   max-width: 700px;
   vertical-align: top;
+	padding-left: 15px;
 }
 
 .navHeader {
@@ -79,7 +80,21 @@ img.logo {
 
 .navImg {
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 15px;
 
+}
+
+.tagsSection {
+	display: block;
+	vertical-align: top;
+}
+
+.tagsSection span {
+	display: inline-block;
+	background: #ECECEC;
+  margin: 10px 10px 0px 0px;
+	padding: 0 10px;
+	border: 1px solid #AAA;
+	border-radius: 5px;
 }
 

@@ -18,7 +18,8 @@ var data = {
 				+ 'locales pick their fallback if no default is available (React).',
 				'The system is called 100’s of times per page request and is currently on a limited rollout.',
 				'Locale fallback impacts millions of users in developing nations and under translated locales.',
-			]
+			],
+			tags: ['Hack', 'Javascript', 'PHP', 'React', 'Linux']
 		},
 		{
 			employer: 'UCF',
@@ -30,7 +31,8 @@ var data = {
 				'Teaching assistant for Intro to C programming under professor Arup Guha at the University of Central Florida.',
 				'Responsible for holding office hours to help students with questions to course material.',
 				'Responsible for grading programming assignments.'
-			]
+			],
+			tags: ['C', 'Python']
 		},
 		{
 			employer: 'Center for Independent Living',
@@ -43,7 +45,8 @@ var data = {
 				'Experience designing database tables (MySQL).',
 				'Wrote an interactive form used to filter and sort paperwork forms that our consumers are required to fill out (JavaScript).',
 				'Partially responsible for administering our Debian servers.',
-			]
+			],
+			tags: ['Python', 'Django', 'MySQL', 'Javascript', 'Linux']
 		},
 		{
 			employer: 'SI@UCF',
@@ -54,7 +57,8 @@ var data = {
 			descList: [
 				'Worked under professor Arup Guha to teach high school students introductory programing concepts in Python.',
 				'Taught recitation lectures, wrote engaging assignments for students, and assisted in the grading of papers.'
-			]
+			],
+			tags: ['Python']
 		}
 	],
 };

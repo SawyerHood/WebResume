@@ -1,20 +1,8 @@
 import React from 'react';
-import TagsSection from './TagsSection.jsx'
+import TagsSection from './TagsSection.jsx';
+import {getDisplayDate} from './../Util.js';
 
 export default class EmploymentSection extends React.Component {
-
-	getDisplayDate(date) {
-		var months = [
-        'Jan', 'Feb', 'Mar',
-        'Apr', 'May', 'Jun', 'Jul',
-        'Aug', 'Sep', 'Oct',
-        'Nov', 'Dec'
-		];
-
-		return date instanceof Date
-			? months[date.getMonth()] + ' ' + date.getFullYear()
-			: 'Present';
-	}
 
 	render() {
 		var employment = this.props.employment;
@@ -23,13 +11,13 @@ export default class EmploymentSection extends React.Component {
 		});
 
 		return (
-			<section className="experienceSection">
+			<section className="entrySection">
 				<div className="sectionHeader">
 					<p className="jobTitle">{employment.title}</p>
 					<p className="company">{employment.employer}</p>
 					<img src={employment.logo} alt={employment.employer + ' Logo'} className="logo"/>	
 					<p className="date">
-						{this.getDisplayDate(employment.startDate)} - {this.getDisplayDate(employment.endDate)}
+						{getDisplayDate(employment.startDate)} - {getDisplayDate(employment.endDate)}
 					</p>
 				</div>
 				<ul className="experienceList">{descList}</ul>

@@ -1,6 +1,7 @@
 import Router from 'react-router';
 import React from 'react';
 import {default as cx} from 'classnames';
+import Footer from './Footer.jsx';
 
 var Link = Router.Link;
 var RouteHandler = Router.RouteHandler;
@@ -13,6 +14,8 @@ class ResumeNav extends React.Component {
 				<h1 className="personName">{this.props.resumeName}</h1>
 				<nav className="resumeNav">
 					<Link to="experience">Experience</Link>
+					<Link to="education">Education</Link>
+					<a href="#">Projects</a>
 				</nav>
 			</header>
 
@@ -21,7 +24,7 @@ class ResumeNav extends React.Component {
 }
 
 
-class Resume extends React.Component {
+export default class Resume extends React.Component {
 
 	constructor(props) {
 		super(props);
@@ -51,9 +54,9 @@ class Resume extends React.Component {
 			<div>
 				<ResumeNav className={classes} resumeName={this.props.resumeName}/>
 				<RouteHandler/>
+				<Footer />
 			</div>
 		);    
 	}
 }
 
-module.exports = Resume;

@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img.logo {
@@ -15,7 +15,7 @@ img.logo {
   width: 200px;
 }
 
-.experienceSection {
+.entrySection {
   padding-bottom: 20px;
   border-bottom: 3px solid darkgrey;
 	max-width: 1000px;
@@ -26,11 +26,21 @@ img.logo {
   color: grey;
 }
 
-.experienceSection ul {
+.sectionHeader p.schoolName {
+  font-size: 14px;
+  color: grey;
+}
+
+.entrySection ul {
   display: inline-block;
   max-width: 700px;
   vertical-align: top;
 	padding-left: 15px;
+}
+
+
+.entrySection ul li {
+	margin: 10px 0;
 }
 
 .navHeader {
@@ -44,7 +54,7 @@ img.logo {
 	padding-left: 10px;
 }
 
-.experienceMaster {
+.entryMaster {
   padding-top: 100px;
 	max-width: 1000px;
 	margin-left: auto;
@@ -61,7 +71,10 @@ img.logo {
 
 .sectionHeader p.jobTitle {
   font-size: 16px;
+}
 
+.sectionHeader p.degreeName {
+  font-size: 16px;
 }
 
 .personName {
@@ -70,7 +83,7 @@ img.logo {
 
 .resumeNav a {
 	text-decoration: none;
-	
+	margin-right: 20px;	
 }
 
 .resumeNav {
@@ -100,5 +113,38 @@ img.logo {
 
 .date {
 	font-size: 12px;
+}
+
+.footer {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+
+.educationColumn {
+	display: inline-block;
+	max-width: 700px;
+	vertical-align: top;
+}
+
+.educationColumn p {
+	font-size: 18px;
+}
+
+.classSection ul {
+	margin-top: 0px;
+	margin-left: 20px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.classSection h4 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.classesList {
+	margin-left: 15px;
 }
 

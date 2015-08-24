@@ -15,7 +15,6 @@ class ResumeNav extends React.Component {
 				<nav className="resumeNav">
 					<Link to="experience">Experience</Link>
 					<Link to="education">Education</Link>
-					<a href="#">Projects</a>
 				</nav>
 			</header>
 

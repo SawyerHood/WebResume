@@ -16,7 +16,7 @@ var data = {
 				+ '(Spanish Mexico to Spanish Latin America).',
 				'Created responsive UI to let users in under translated' 
 				+ 'locales pick their fallback if no default is available (React).',
-				'The system is called 100’s of times per page request and is currently on a limited rollout.',
+				'The system is called millions of times a second and is currently on a limited rollout.',
 				'Locale fallback impacts millions of users in developing nations and under translated locales.',
 				'Asked to comeback fulltime. Starting in August 2016.',
 			],

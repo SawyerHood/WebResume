@@ -51,11 +51,15 @@ export default class Resume extends React.Component {
 		var classes = cx({navUp: !this.state.showHeader});
 		return (
 			<div>
-				<ResumeNav className={classes} resumeName={this.props.resumeName}/>
+				<ResumeNav className={classes} resumeName={this.props.resumeData.name}/>
 				<RouteHandler/>
-				<Footer />
+				<Footer
+          resumeName={this.props.resumeData.name}
+          facebookURL={this.props.resumeData.facebookURL}
+          githubURL={this.props.resumeData.githubURL}
+        />
 			</div>
-		);    
+		);
 	}
 }
 

@@ -1,5 +1,7 @@
 var data = {
 	name: 'Sawyer Hood',
+  facebookURL: 'https://www.facebook.com/sawyer.hood',
+  githubURL: 'https://github.com/SawyerHood',
 	experience: [
 		{
 			employer: 'Facebook',

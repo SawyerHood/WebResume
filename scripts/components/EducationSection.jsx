@@ -3,7 +3,7 @@ import ClassSection from './ClassSection.jsx';
 import {getDisplayDate} from './../Util.js';
 
 export default class EducationSection extends React.Component {
-	
+
 	render() {
 		var education = this.props.educationEntry;
 		var classes = education.classes.map(function(item) {
@@ -17,11 +17,11 @@ export default class EducationSection extends React.Component {
 					</p>
 					<p className="schoolName">
 						{education.name}
-					</p>	
-					<img 
-						src={education.logo} 
-						alt={education.name + ' Logo'} 
-						className="logo"/>	
+					</p>
+					<img
+						src={education.logo}
+						alt={education.name + ' Logo'}
+						className="logo"/>
 					<p className="date">
 						{getDisplayDate(education.startDate)} - {getDisplayDate(education.endDate)}
 					</p>
@@ -36,6 +36,6 @@ export default class EducationSection extends React.Component {
 					</div>
 				</div>
 			</section>
-		);	
-	}
+		);
+  }
 }
